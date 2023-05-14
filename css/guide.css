@@ -637,7 +637,7 @@ a.fix_p3 {
 
 a img {
     /* /给图片添加过渡效果 对宽高有一个0.4s的过渡 */
-    transition: all .4s;
+    transition: 0.4s;
 }
 
 a img:hover {
