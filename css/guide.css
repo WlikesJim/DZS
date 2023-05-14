@@ -95,7 +95,7 @@ a:hover {
 }
 
 .p1 {
-    background-image: url(/images/dzs20.jpg);
+    background-image: url('../images/dzs20.jpg');
     background-repeat: no-repeat;
 }
 
@@ -136,12 +136,12 @@ a:hover {
 .wrap {
     width: 100%;
     min-width: 1000px;
-    background: url(/images/dzs03.png) no-repeat 50% 0;
+    background: url('../images/dzs03.png') no-repeat 50% 0;
     position: relative;
 }
 
 #inPages .wrap {
-    background-image: url(/images/dzs21.jpg);
+    background-image: url('../images/dzs21.jpg');
 }
 
 .main_top {
