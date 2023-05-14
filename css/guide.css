@@ -625,7 +625,7 @@ a.fix_p3 {
 .data_con {
     min-height: 969px;
     padding: 10px 20px 40px 18px;
-    background: url(/images/dzs23.png) repeat 0 0;
+    background: url('../images/dzs23.png') repeat 0 0;
     font: 14px/32px "simsun";
 }
 
