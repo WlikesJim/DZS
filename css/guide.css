@@ -641,8 +641,8 @@ a img {
 }
 
 a img:hover {
-    /* 当鼠标经过时div里面的图片宽高同时变为原来的1.3倍 */
-    transform: scale(1.3);
+    /* 当鼠标经过时div里面的图片宽高同时变为原来的1.2倍 */
+    transform: scale(1.2);
     /* 并且光标变为指示链接的指针一只手 */
     cursor: pointer;
 }
