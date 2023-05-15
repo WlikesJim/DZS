@@ -632,7 +632,7 @@ a.fix_p3 {
 .a111 {
     /* overflow: hidden; */
     /* float: left; */
-    margin: 25px;
+    margin: 0px;
 }
 
 a img {
