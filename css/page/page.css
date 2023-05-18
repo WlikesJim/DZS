@@ -24,7 +24,8 @@ body {
     min-width: 1000px;
     font: 12px/1.5em "Microsoft Yahei";
     color: #000;
-    background: #2f343b;
+    background: #212337;
+    /* 移动端背景图显得不美观 */
     background-image: url(../../images/page/bg/p2.png);
     /* 背景图垂直、水平均居中 */
     background-position: center center;
@@ -35,7 +36,7 @@ body {
     /* 让背景图基于容器大小伸缩 */
     background-size: cover;
     /* 设置背景颜色，背景图加载过程中会显示背景色 */
-    /* background-color: #000; */
+    background-color: #212337;
 }
 
 .clear {
