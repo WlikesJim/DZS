@@ -203,22 +203,6 @@ a {
 	transition: 0.3s all;
 }
 
-
-.index-nav .user-info .pic {
-	display: block;
-	width: 45px;
-	height: 45px;
-	border-radius: 100%;
-	overflow: hidden;
-}
-
-.index-nav .user-info .pic img {
-	display: block;
-	width: 100%;
-	height: 100%;
-}
-
-
 /**/
 
 .index-main {
@@ -304,7 +288,7 @@ a {
 	align-items: center;
 	border-radius: 6px;
 	background-color: #1167fa;
-	background-image: url('../images/dzs01.png');
+	background-image: url('../images/index/background/s6.png');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: top;
