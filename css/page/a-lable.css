@@ -9,10 +9,10 @@
     /*未访问的链接颜色*/
 }
 
-/* .lable-1:visited { */
-/* color: red; */
-/*已访问的链接颜色*/
-/* } */
+.lable-1:visited {
+    color: red;
+    /*已访问的链接颜色*/
+}
 
 .lable-1:hover {
     /*鼠标移动到链接的颜色*/
@@ -46,10 +46,10 @@
     /*未访问的链接颜色*/
 }
 
-/* .lable-2:visited { */
-/* color: rgb(255, 0, 4); */
-/*已访问的链接颜色*/
-/* } */
+.lable-2:visited {
+    color: rgb(255, 0, 4);
+    /*已访问的链接颜色*/
+}
 
 .lable-2:hover {
     /*鼠标移动到链接的颜色*/
@@ -72,6 +72,3 @@
                                |___/
                  
 */
-.new {
-    background-image: url('../images/gif/new.gif');
-}
