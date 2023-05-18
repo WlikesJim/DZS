@@ -1,0 +1,77 @@
+/* 标签lable-1的样式 */
+.lable-1 {
+    /*去掉下划线*/
+    text-decoration: none;
+}
+
+.lable-1:link {
+    color: #9e9e9f;
+    /*未访问的链接颜色*/
+}
+
+.lable-1:visited {
+    color: red;
+    /*已访问的链接颜色*/
+}
+
+.lable-1:hover {
+    /*鼠标移动到链接的颜色*/
+    color: rgba(0, 242, 255, 0.796);
+    /* 鼠标经过出现下划线 */
+    /* text-decoration: underline; */
+}
+
+.lable-1:active {
+    /*鼠标点击时的颜色*/
+    color: orange;
+}
+
+/* 标签lable-1的样式 */
+/*
+                  ___                _
+                 / __|___  ___  __ _| |___
+                | (_ / _ \/ _ \/ _` |   -_)
+                 \___\___/\___/\__, |_\___|
+                               |___/
+                 
+*/
+/* 标签lable-2的样式 */
+.lable-2 {
+    /*去掉下划线*/
+    text-decoration: none;
+}
+
+.lable-2:link {
+    color: #000000;
+    /*未访问的链接颜色*/
+}
+
+.lable-2:visited {
+    color: rgb(255, 0, 4);
+    /*已访问的链接颜色*/
+}
+
+.lable-2:hover {
+    /*鼠标移动到链接的颜色*/
+    color: rgba(0, 242, 255, 0.796);
+    /* 鼠标经过出现下划线 */
+    /* text-decoration: underline; */
+}
+
+.lable-2:active {
+    /*鼠标点击时的颜色*/
+    color: orange;
+}
+
+/* 标签lable-2的样式 */
+/*
+                  ___                _
+                 / __|___  ___  __ _| |___
+                | (_ / _ \/ _ \/ _` |   -_)
+                 \___\___/\___/\__, |_\___|
+                               |___/
+                 
+*/
+.new {
+    background-image: url('../images/gif/new.gif');
+}

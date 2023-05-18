@@ -1,0 +1,687 @@
+@charset "gb2312";
+
+html,
+body,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+img {
+    margin: 0px;
+    padding: 0;
+}
+
+body {
+    min-width: 1000px;
+    font: 12px/1.5em "Microsoft Yahei";
+    color: #000;
+    background: #2f343b;
+    background-image: url(../images/dzs27.jpg);
+    /* 背景图垂直、水平均居中 */
+    background-position: center center;
+    /* 背景图不平铺 */
+    background-repeat: no-repeat;
+    /* 当内容高度大于图片高度时，背景图像的位置相对于viewport固定 */
+    background-attachment: fixed;
+    /* 让背景图基于容器大小伸缩 */
+    background-size: cover;
+    /* 设置背景颜色，背景图加载过程中会显示背景色 */
+    background-color: #000;
+}
+
+.clear {
+    clear: both;
+}
+
+img {
+    border: 0;
+}
+
+ul,
+ol,
+li {
+    list-style: none
+}
+
+a,
+a:hover {
+    color: #9e9e9f;
+    text-decoration: none;
+}
+
+.t_i {
+    text-indent: -999em;
+    overflow: hidden;
+}
+
+.o_h {
+    overflow: hidden;
+}
+
+.p0 {
+    background: url(about:blank);
+}
+
+.inner_a {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.h_txt {
+    width: 810px;
+    height: 24px;
+    padding-left: 190px;
+    position: absolute;
+    left: 0;
+    top: 440px;
+    text-align: center;
+    text-indent: 0;
+    font: bold 14px/24px "Microsoft Yahei";
+}
+
+.h_txt a,
+.h_txt a:hover {
+    color: #ffffe4;
+    background: #721a1a;
+    color: #e0dbc7;
+    padding: 0 10px;
+}
+
+.red {
+    color: #961f1f !important;
+}
+
+.m_0 {
+    margin: 0 !important;
+}
+
+.p1 {
+    background-image: url('../images/dzs20.jpg');
+    background-repeat: no-repeat;
+}
+
+.p2 {
+    background-image: url(//ossweb-img.qq.com/images/dzs/20120924index/s_common.jpg);
+    background-repeat: no-repeat;
+}
+
+.p3 {
+    background: url(about:blank);
+}
+
+.ico_hot,
+.ico_new,
+.ico_blank {
+    width: 15px;
+    height: 14px;
+    display: inline-block;
+    background: url(//game.gtimg.cn/images/dzs/20130912index/png_8.png) no-repeat -5px 0;
+    text-indent: -99em;
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+.ico_new {
+    background-position: -5px -21px;
+}
+
+.ico_blank {
+    background-position: 100px 100px;
+}
+
+.ico_more {
+    background: url(//game.gtimg.cn/images/dzs/20130912index/png_8.png) no-repeat 4px -66px;
+}
+
+/***top nav***/
+.wrap {
+    width: 100%;
+    min-width: 1000px;
+    background: url('../images/dzs03.png') no-repeat 50% 0;
+    position: relative;
+}
+
+#inPages .wrap {
+    background-image: url('../images/111.png');
+}
+
+.main_top {
+    height: 353px;
+    position: relative;
+}
+
+.top_nav li {
+    width: 130px;
+    height: 74px;
+    padding-top: 35px;
+    text-align: center;
+    font: bold 18px/24px "Microsoft Yahei";
+    float: left;
+}
+
+li.m_5 {
+    width: 115px;
+}
+
+li.web_logo {
+    width: 223px;
+}
+
+.top_nav a {
+    color: #fff;
+}
+
+.top_nav a:hover {
+    color: #cac4b5;
+}
+
+.top_nav li span {
+    font: 10px/14px "Arial";
+    display: block;
+    color: #a9a08e;
+}
+
+.link_five {
+    width: 29px;
+    height: 112px;
+    display: block;
+    left: 478px;
+    top: 237px;
+    position: absolute;
+    z-index: 1024;
+}
+
+.topObj {
+    overflow: hidden;
+    top: 110px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 500px;
+}
+
+#dzsTop {
+    width: 1920px;
+    height: 612px;
+    position: absolute;
+    top: -2px;
+    left: 50%;
+    margin-left: -960px;
+}
+
+/**leftbar**/
+.left_bar {
+    width: 170px;
+    float: left;
+    position: relative;
+    top: -25px;
+    padding: 25px 19px 0 0;
+}
+
+left_dl a {
+    color: #ff0;
+}
+
+.btn_download {
+    height: 106px;
+    margin-bottom: 6px;
+    position: relative;
+    top: 0;
+}
+
+#btnDown {
+    position: absolute;
+    top: -12px;
+    width: 170px;
+    height: 130px;
+}
+
+.btn_download a {
+    display: block;
+    height: 106px;
+    background-position: 0 0;
+}
+
+.btn_money,
+.btn_bbs,
+.btn_war,
+.btn_data,
+.btn_qtalk {
+    display: block;
+    margin-bottom: 6px;
+}
+
+.btn_money {
+    width: 85px;
+    height: 78px;
+    background-position: 0 -110px;
+    float: left;
+}
+
+a.btn_money:hover {
+    background-position: -176px -110px;
+}
+
+.btn_bbs {
+    width: 85px;
+    height: 78px;
+    background-position: -85px -110px;
+    float: left;
+}
+
+a.btn_bbs:hover {
+    background-position: -260px -110px;
+}
+
+.btn_war {
+    height: 48px;
+    background-position: 0 -192px;
+}
+
+a.btn_war:hover {
+    background-position: -175px -192px;
+}
+
+.btn_data {
+    height: 48px;
+    background-position: 0 -241px;
+}
+
+a.btn_data:hover {
+    background-position: -175px -241px;
+}
+
+.btn_qtalk {
+    height: 65px;
+    background-position: 0 -290px;
+}
+
+a.btn_qtalk:hover {
+    background-position: -175px -290px;
+}
+
+.btn_GPS {
+    height: 49px;
+    background-position: 0 -357px;
+}
+
+.left_dl {
+    width: 155px;
+    overflow: hidden;
+    background: #181818;
+    padding: 10px 0 6px 15px;
+    border-top: 1px solid #161616;
+    border-bottom: 1px solid #212121;
+}
+
+.left_dl dt {
+    display: block;
+    color: #737478;
+    font: bold 16px/30px "Microsoft Yahei";
+}
+
+.left_dl dd {
+    display: block;
+    height: 24px;
+    float: left;
+    width: 65px;
+    overflow: hidden;
+    color: #9e9e9f;
+    padding-right: 10px;
+    font: 14px/24px "Microsoft Yahei";
+}
+
+.left_dl dd.long {
+    width: 150px;
+}
+
+.drop_list {
+    width: 170px;
+    position: relative;
+    height: 39px;
+    padding-top: 3px;
+    color: #fff;
+}
+
+.drop_list p {
+    height: 39px;
+    line-height: 39px;
+    cursor: pointer;
+    background-position: 0 -408px;
+    padding-left: 8px;
+}
+
+.drop_list ul {
+    width: 160px;
+    display: block;
+    border: #181818 5px solid;
+    position: absolute;
+    left: 0;
+    bottom: 35px;
+    background: #232323;
+    overflow: hidden;
+    display: none;
+}
+
+.drop_list li {
+    font: 12px/24px "Microsoft Yahei";
+    display: block;
+}
+
+.drop_list a {
+    display: block;
+    height: 100%;
+    padding: 0 14px;
+}
+
+.drop_list a:hover {
+    background: #181818;
+    color: #fff;
+}
+
+.logo_game {
+    width: 170px;
+    height: 40px;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 15px;
+}
+
+.bottom_txt {
+    width: 655px;
+    margin: 0 auto;
+    padding: 0 0 21px 346px;
+    color: #938b7f;
+    font: 12px/18px "simsun";
+    position: relative;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.bottom_txt a {
+    color: #938b7f;
+    white-space: nowrap;
+}
+
+.bottom_txt .ml_0 {
+    margin-left: 0;
+}
+
+.bottom .mr_0 {
+    margin-right: 0;
+}
+
+.bot_link a {
+    margin: 0 6px;
+}
+
+.bottom_txt .d {
+    float: left;
+    font-size: 10px;
+    font-family: "Tahoma";
+}
+
+.bottom_txt .co {
+    float: right;
+    white-space: nowrap;
+}
+
+/* inner page */
+.fix_box {
+    width: 39px;
+    position: fixed;
+    left: 50%;
+    margin-left: 500px;
+    top: 350px;
+    z-index: 9000px;
+    _position: absolute;
+}
+
+.fix_box a {
+    width: 39px;
+    height: 39px;
+    display: block;
+    margin-bottom: 1px;
+}
+
+.fix_p1 {
+    background-position: -146px 0;
+}
+
+.fix_p2 {
+    background-position: -146px -40px;
+}
+
+.fix_p3 {
+    background-position: -146px -80px;
+}
+
+.fix_p4 {
+    background-position: -146px -120px;
+}
+
+.style_tips,
+a.fix_p2,
+a.fix_p3 {
+    display: none;
+}
+
+.fix_p1_on {
+    background-position: -438px -340px;
+}
+
+.awards_wall {
+    width: 470px;
+    position: absolute;
+    right: 39px;
+    _right: 38px;
+    top: 0;
+    display: none;
+}
+
+.award_head {
+    height: 38px;
+    padding-left: 146px;
+    border-bottom: 1px solid #1a1918;
+    background-position: 0 -68px;
+}
+
+.award_h {
+    height: 38px;
+    background-color: #202020;
+}
+
+.awards_box {
+    padding: 0 0 14px 0;
+    border-top: 1px solid #272524;
+    background: #202020;
+}
+
+.award_list {
+    padding: 0 12px 14px 17px;
+    border-top: 1px solid #272524;
+}
+
+.award_list li {
+    height: 32px;
+    clear: both;
+    padding-top: 24px;
+}
+
+.award_list .p2 {
+    width: 70px;
+    height: 32px;
+    float: left;
+    _display: inline;
+}
+
+.award_text {
+    float: left;
+    width: 269px;
+    height: 20px;
+    line-height: 20px;
+    margin: 6px 0;
+    padding: 0 12px;
+    border-left: 1px solid #272524;
+    _display: inline;
+    color: #b0aca6;
+}
+
+.award_date {
+    width: 74px;
+    height: 16px;
+    margin: 8px 0;
+    line-height: 16px;
+    float: right;
+    background-position: 0 -45px;
+    color: #944b29;
+}
+
+.awards_spc {
+    border: 0;
+    border-bottom: 1px solid #1a1918;
+}
+
+.awards_spc .award_text {
+    width: 300px;
+    border: 0;
+}
+
+.award_p1 {
+    background-position: -586px 0;
+}
+
+.award_p2 {
+    background-position: -586px -32px;
+}
+
+.award_p3 {
+    background-position: -586px -64px;
+}
+
+.award_p4 {
+    background-position: -586px -96px;
+}
+
+.award_p5 {
+    background-position: -586px -128px;
+}
+
+.award_p6 {
+    background-position: -586px -160px;
+}
+
+.award_p7 {
+    background-position: -586px -192px;
+}
+
+.l_14 {
+    line-height: 14px;
+    margin-top: -3px
+}
+
+.inner_page,
+.data_page {
+    width: 799px;
+    float: left;
+}
+
+.inner_page a,
+.inner_page a:hover {
+    color: #505050;
+}
+
+.list_head {
+    height: 103px;
+    padding: 12px 0 0 17px;
+    position: relative;
+    color: #eee;
+}
+
+.list_head h3 {
+    font: bold 18px/25px "Microsoft Yahei";
+    text-indent: 0;
+    height: 55px;
+    color: #f25800;
+}
+
+.list_head a,
+.list_head a:hover {
+    color: #eee;
+}
+
+.inner_p0,
+.inner_p1,
+.inner_p2 {
+    width: 197px;
+    height: 214px;
+    position: absolute;
+    right: 0;
+    top: -69px;
+}
+
+.list_con,
+.detail_con,
+.data_con {
+    min-height: 969px;
+    padding: 10px 20px 40px 18px;
+    background: url('../images/dzs23.png') repeat 0 0;
+    font: 14px/32px "simsun";
+}
+
+.a111 {
+    /* overflow: hidden; */
+    /* float: left; */
+    margin: 0px;
+}
+
+a img {
+    /* /给图片添加过渡效果 对宽高有一个0.4s的过渡 */
+    transition: 0.4s;
+}
+
+a img:hover {
+    /* 当鼠标经过时div里面的图片宽高同时变为原来的1.2倍 */
+    transform: scale(1.2);
+    /* 并且光标变为指示链接的指针一只手 */
+    cursor: pointer;
+}
+
+.dzsimg1 {
+    width: 273px;
+    height: 266px;
+}
+
+.detail_con {
+    font: 12px/18px "simsun";
+    padding: 10px 33px 40px 33px;
+}
+
+.list_ul .time {
+    color: #a68220;
+    float: right;
+}
+
+.list_ul li {
+    clear: both;
+}
+
+.list_type {
+    color: #a68220;
+}
+
+.detail_content a,
+.detail_content a:hover {
+    text-decoration: underline;
+}
