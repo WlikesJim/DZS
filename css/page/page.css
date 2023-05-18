@@ -106,7 +106,7 @@ a:hover {
 }
 
 .p1 {
-    background-image: url('../images/page/bg/p4.jpg');
+    background-image: url('../../images/page/bg/p4.jpg');
     background-repeat: no-repeat;
 }
 
@@ -147,12 +147,12 @@ a:hover {
 .wrap {
     width: 100%;
     min-width: 1000px;
-    background: url('../images/page/bg/p5.png') no-repeat 50% 0;
+    background: url('../../images/page/bg/p5.png') no-repeat 50% 0;
     position: relative;
 }
 
 #inPages .wrap {
-    background-image: url('../images/page/bg/p1.png');
+    background-image: url('../../images/page/bg/p1.png');
 }
 
 .main_top {
@@ -636,7 +636,7 @@ a.fix_p3 {
 .data_con {
     min-height: 969px;
     padding: 10px 20px 40px 18px;
-    background: url('../images/page/bg/p3.png') repeat 0 0;
+    background: url('../../images/page/bg/p3.png') repeat 0 0;
     font: 14px/32px "simsun";
 }
 
