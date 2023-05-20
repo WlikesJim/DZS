@@ -1,9 +1,9 @@
 @font-face {
   font-family: "iconfont";
   /* Project id 4054202 */
-  src: url('iconfont.woff2?t=1683546315028') format('woff2'),
-    url('iconfont.woff?t=1683546315028') format('woff'),
-    url('iconfont.ttf?t=1683546315028') format('truetype');
+  src: url('iconfont.woff2?t=1684614215071') format('woff2'),
+    url('iconfont.woff?t=1684614215071') format('woff'),
+    url('iconfont.ttf?t=1684614215071') format('truetype');
 }
 
 .iconfont {
@@ -27,6 +27,26 @@
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-caidan:before {
+  content: "\e609";
+}
+
+.icon-caidan1:before {
+  content: "\e626";
+}
+
+.icon-menu:before {
+  content: "\e67c";
+}
+
+.icon-caidan2:before {
+  content: "\e60a";
+}
+
+.icon-caidan-kuai:before {
+  content: "\e899";
 }
 
 .icon-erweima:before {
