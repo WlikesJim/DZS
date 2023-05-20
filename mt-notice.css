@@ -1,37 +1,56 @@
-.popup {
-    position: fixed;
-    top: 0;
+.marquee {
+    width: 450px;
+    margin: 0 auto;
+    overflow: hidden;
+    white-space: nowrap;
+    box-sizing: border-box;
+    animation: marquee 20s linear infinite;
+}
+
+.marquee:hover {
+    animation-play-state: paused
+}
+
+/* 使段落文字滚动 */
+@keyframes marquee {
+    0% {
+        text-indent: 27.5em
+    }
+
+    100% {
+        text-indent: -105em
+    }
+}
+
+/* 滚动文字前加图片 */
+.microsoft {
+    height: 40px;
+    padding-left: 1.5em;
+    position: relative;
+    font: 16px 'Segoe UI', Tahoma, Helvetica, Sans-Serif;
+}
+
+.microsoft:before {
+    z-index: 2;
+    content: '';
+    position: absolute;
+    top: -1em;
+    left: -1em;
+    width: .5em;
+    height: .5em;
+}
+
+.microsoft:after,
+.microsoft::after {
+    z-index: 1;
+    content: '';
+    position: absolute;
+    top: 2px;
     left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    display: none;
-    justify-content: center;
-    align-items: center;
-}
-
-.popup-content {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-    max-width: 80%;
-    text-align: center;
-}
-
-.popup-content h2 {
-    margin: 0;
-}
-
-.popup-content p {
-    margin: 10px 0;
-}
-
-.close-btn {
-    background-color: #f44336;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    padding: 5px 10px;
-    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    background-size: 100%;
+    background-image: url(images/index/gg4.png);
+    /* background-image: linear-gradient(90deg, white 70%, rgba(255,255,255,0));*/
 }
