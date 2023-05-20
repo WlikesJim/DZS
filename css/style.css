@@ -738,6 +738,19 @@ footer a:hover {
 		height: 100%;
 	}
 
+	.m-header .navbar-gg {
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		width: 100px;
+		height: 40px;
+		font-size: 28px;
+		text-align: center;
+		border: 0 solid #ffffff00;
+		color: #1167fa;
+		border-radius: 6px;
+	}
+
 	.m-header .navbar {
 		display: flex;
 		justify-content: center;
