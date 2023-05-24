@@ -72,3 +72,40 @@
                                |___/
                  
 */
+/* 标签lable-3的样式 */
+.lable-3 {
+    /*去掉下划线*/
+    text-decoration: none;
+}
+
+.lable-3:link {
+    color: #1500ff;
+    /*未访问的链接颜色*/
+}
+
+.lable-3:visited {
+    color: rgb(255, 0, 4);
+    /*已访问的链接颜色*/
+}
+
+.lable-3:hover {
+    /*鼠标移动到链接的颜色*/
+    color: rgba(17, 0, 255, 0.796);
+    /* 鼠标经过出现下划线 */
+    /* text-decoration: underline; */
+}
+
+.lable-3:active {
+    /*鼠标点击时的颜色*/
+    color: orange;
+}
+
+/* 标签lable-2的样式 */
+/*
+                  ___                _
+                 / __|___  ___  __ _| |___
+                | (_ / _ \/ _ \/ _` |   -_)
+                 \___\___/\___/\__, |_\___|
+                               |___/
+                 
+*/
